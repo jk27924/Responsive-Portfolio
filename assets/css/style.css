@@ -129,11 +129,11 @@ footer {
 }
 
 /* about.html */
-.about-card {
-  opacity: 0.2;
+#sidebar-title {
+  color: whitesmoke;
 }
 
-.about-card-title {
+#sidebar-menu {
   color: whitesmoke;
 }
 
