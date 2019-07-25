@@ -1,6 +1,11 @@
 body {
   margin: 0 auto;
   background: url('https://i.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg');
+
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Home.html */
@@ -69,7 +74,7 @@ body {
   text-align: center;
   font-family: 'Inconsolata', monospace;
   font-size: 40px;
-  margin: 200px 0 150px 0;
+  margin: 100px 0 150px 0;
 }
 
 
@@ -118,7 +123,7 @@ footer {
   color: whitesmoke;
   height: 40px;
   bottom: 0;
-  /* position: fixed; */
+  position: fixed;
   width:100%;
 }
 
@@ -129,13 +134,37 @@ footer {
 }
 
 /* about.html */
+.page-container {
+  margin: 50px 0 50px 0;
+}
+
 #sidebar-title {
   color: whitesmoke;
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  font-size: 28px;
 }
 
 #sidebar-menu {
   color: whitesmoke;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-decoration: none;
 }
+
+#sidebar-menu:hover {
+  color: rgb(99, 98, 98);
+}
+
+#content-about {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+
+
+
 
 /* Portfolio Page */
 #portfolio-top {
