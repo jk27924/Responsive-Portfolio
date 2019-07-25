@@ -7,29 +7,97 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poiret+One|Shadows+Into+Light|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
 </head>
 
-<body>    
-    <header id="top">
-        <div class="top-container" class="container">
-            <div class="nameplate">Jihong Kim</div>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <nav class="navbar">
+            <a class="navbar-brand" id="logo" href="home.html">JIHONG KIM</a>
 
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-            <div class="clear"></div>
-        </div>
-        
-    </header>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h2 class="display-4" id=statement>J I H O N G K I M</h2>
+        <p class="lead">Future Full Stack Developer</p>
+    </div> 
+
 
     <div id="main-container" class="container">
 
         <section class="main-section2">
-            <h1>Portfolio</h1>
+            <div id="portfolio-top">
+                <h1 id="portfolio">Portfolio</h1>
+            </div>
 
-            <div class="work">
+            <div class="row">
+                <div class="col-lg4">
+                    <div class="card work card-one" style="width: 19rem;">
+                        <img src="assets/images/cat.jpg" class="card-img-top" alt="cat">
+                        <div class="card-body">
+                            <h5 class="card-title">Cat</h5>
+                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg4">
+                    <div class="card work card-two" style="width: 19rem;">
+                        <img src="assets/images/fashion.jpg" class="card-img-top" alt="fasion">
+                        <div class="card-body">
+                            <h5 class="card-title">Fashion</h5>
+                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg4">
+                    <div class="card work card-three" style="width: 19rem;">
+                        <img src="assets/images/food.jpg" class="card-img-top" alt="food">
+                        <div class="card-body">
+                            <h5 class="card-title">Food</h5>
+                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+            <div class="card work" style="width: 17rem;">
+                <img src="assets/images/nightlife.jpg" class="card-img-top" alt="night life">
+                <div class="card-body">
+                    <h5 class="card-title">Night Life</h5>
+                    <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+                </div>
+            </div>
+            <div class="card work" style="width: 17rem;">
+                <img src="assets/images/sports.jpg" class="card-img-top" alt="sports">
+                <div class="card-body">
+                    <h5 class="card-title">Sports</h5>
+                    <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+                </div>
+            </div>
+
+            <!-- <div class="work">
                 <img src="assets/images/cat.jpg" alt="Cat">
                 <h2><a href="placeholder">Cat</a></h2>
             </div>
@@ -52,14 +120,14 @@
             <div class="work">
                 <img src="assets/images/sports.jpg" alt="Sports">
                 <h2><a href="placeholder">Sports</a></h2>
-            </div>
+            </div> -->
 
         </section>
     </div>
 
-    <footer>
-        copyright &copy;
-    </footer>
+ <footer>
+    <p id="copyright">Copyright &copy; 2019 | JIHONG KIM</p>
+</footer>
 
 </body>
 

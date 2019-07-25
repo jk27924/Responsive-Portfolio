@@ -6,12 +6,15 @@ body {
 /* Home.html */
 
 .jumbotron {
-  background: url('https://backgrounddownload.com/wp-content/uploads/2018/09/background-for-business-website-hd-2.jpg');
+  /* background: url('https://backgrounddownload.com/wp-content/uploads/2018/09/background-for-business-website-hd-2.jpg'); */
+  background: url('../images/jumbotron-img.jpg');
   background-size: cover;
-  background-position:center;
+  /* background-size: auto 100%; */
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
+  /* background-attachment: fixed; */
+  /* height: 500px; */
+  min-height: 450px;
 }
 
 .navbar {
@@ -26,25 +29,19 @@ body {
   color: whitesmoke;
 }
 
-ul a {
+#nav-color {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
   font-size: 18px;
   text-decoration: none;
   color: whitesmoke;
-  border-left: 1px solid whitesmoke;
   line-height: 18px;
   display: inline-block;
   margin: 0 40px 0 40px; 
 }
 
-ul a:first-child {
-  border-left: 0 none;
-  text-align: center;
-}
-
 #logo:hover,
-nav a:hover {
+#nav-color:hover {
   color: rgb(99, 98, 98);
 }
 
@@ -64,7 +61,7 @@ nav a:hover {
   text-align: center;
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
-  margin-bottom: 100px;
+  /* margin-bottom: 180px; */
 }
 
 .quote {
@@ -121,7 +118,7 @@ footer {
   color: whitesmoke;
   height: 40px;
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   width:100%;
 }
 
@@ -131,9 +128,19 @@ footer {
   display: table;
 }
 
+/* about.html */
+.about-card {
+  opacity: 0.2;
+}
 
+.about-card-title {
+  color: whitesmoke;
+}
 
 /* Portfolio Page */
+#portfolio-top {
+  margin-bottom: 30px;
+}
 
 .work {
   float: left;
@@ -141,7 +148,7 @@ footer {
 }
 
 .work img {
-  width: 270px;
+  width: 100px;
   height: 200px;
   margin-bottom: 50px;
   margin-right: 40px;
@@ -161,19 +168,42 @@ footer {
 }
 
 .main-section2 {
-  width: 900px;
+  max-width: 1020px;
   height: 800px;
   margin: 0 auto;
-  background-color: white;
+  background-color: whitesmoke;
   padding: 30px;
   margin-top: 35px;
   margin-bottom: 40px;
   border: 1px solid #ddd;   
 }
 
+#portfolio{
+  color: rgb(92, 90, 90);
+}
+
 a:link {
   text-decoration: none;
-  color: #fff;
+  color: whitesmoke;
+}
+
+.card {
+  border: none;
+}
+.card-title {
+  text-align: center;
+  color: rgb(92, 90, 90);
+}
+
+#view-code {
+  background-color: rgb(92, 90, 90);
+  text-align: text;
+  border: none;
+  width: 250px;
+}
+
+.card-two {
+  margin: 0 15px 0 15px;
 }
 
 
