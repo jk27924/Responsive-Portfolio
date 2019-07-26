@@ -65,6 +65,7 @@ body {
   color: whitesmoke;
   text-align: center;
   font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
   font-size: 20px;
   /* margin-bottom: 180px; */
 }
@@ -72,9 +73,9 @@ body {
 .quote {
   color: whitesmoke;
   text-align: center;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Poiret One', cursive;
   font-size: 40px;
-  margin: 100px 0 150px 0;
+  margin: 120px 0 120px 0;
 }
 
 
@@ -221,10 +222,6 @@ footer {
   border: 1px solid #ddd;   
 }
 
-#portfolio{
-  color: rgb(92, 90, 90);
-}
-
 a:link {
   text-decoration: none;
   color: whitesmoke;
@@ -233,6 +230,16 @@ a:link {
 .card {
   border: none;
 }
+
+#sidebar-title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#sidebar-menu {
+  line-height: 40px;
+}
+
 #portfolio-title {
   text-align: center;
   color: whitesmoke;
@@ -246,7 +253,6 @@ a:link {
   line-height: 30px;
   font-size: 20px;
   margin-bottom: 60px;
-
 }
 
 
@@ -261,12 +267,6 @@ a:link {
   max-height: 300px;
   border-radius: 10px;
   margin-bottom: 30px;
-}
-
-#technology {
-  color: whitesmoke;
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
 }
 
 #view-button-section {
@@ -285,6 +285,13 @@ a:link {
   text-align: center;
   border: none;
   width: 180px;
+}
+
+#technology {
+  color: whitesmoke;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  margin-bottom: 120px;
 }
 
 
