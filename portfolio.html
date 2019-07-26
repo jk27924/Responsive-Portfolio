@@ -11,14 +11,14 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poiret+One|Shadows+Into+Light|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poiret+One|Raleway|Shadows+Into+Light|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     
     <title>Jihong Kim</title>
 </head>
 
 <body>
     <div class="jumbotron jumbotron-fluid p-3">
-
+        <!-- Nav Bar Starts -->
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="d-flex flex-grow-1">
                 <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
@@ -46,7 +46,7 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav><!-- Nav Bar ends -->
 
         <h2 class="display-4" id=statement>J I H O N G K I M</h2>
         <p class="lead">Future Full Stack Developer</p>
@@ -54,90 +54,76 @@
     </div>    
 
 
-    <div id="main-container" class="container">
-
-        <section class="main-section2">
-            <div id="portfolio-top">
-                <h1 id="portfolio">Portfolio</h1>
-            </div>
-
-            <div class="row">
-                <div class="col-lg4">
-                    <div class="card work card-one" style="width: 19rem;">
-                        <img src="assets/images/cat.jpg" class="card-img-top" alt="cat">
-                        <div class="card-body">
-                            <h5 class="card-title">Cat</h5>
-                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg4">
-                    <div class="card work card-two" style="width: 19rem;">
-                        <img src="assets/images/fashion.jpg" class="card-img-top" alt="fasion">
-                        <div class="card-body">
-                            <h5 class="card-title">Fashion</h5>
-                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg4">
-                    <div class="card work card-three" style="width: 19rem;">
-                        <img src="assets/images/food.jpg" class="card-img-top" alt="food">
-                        <div class="card-body">
-                            <h5 class="card-title">Food</h5>
-                            <a href="#" class="btn btn-primary" id="view-code">View Code</a>
-                        </div>
-                    </div>
-                </div>
+    <div class="page-container">
+            
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-left">
+            
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+                <ul class="nav">
+                    <li class="active"><a href="index.html"id="sidebar-title">Portfolio</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Psychic Game</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Crystal Collector</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Harry Potter Trivia</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Marvel Gif Tastic</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Train Scheduler</a></li>
+                </ul>
+                <ul class="nav">
+                    <li><a href="#" id="sidebar-menu"># Fridge Chef - Project 1</a></li>
+                </ul>
             </div>
             
-
-
-
-            <div class="card work" style="width: 17rem;">
-                <img src="assets/images/nightlife.jpg" class="card-img-top" alt="night life">
-                <div class="card-body">
-                    <h5 class="card-title">Night Life</h5>
-                    <a href="#" class="btn btn-primary" id="view-code">View Code</a>
+            <div class="col-xs-12 col-sm-9">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <h2 id="portfolio-title">PSYCHIC GAME</h2>
+                        <p id="portfolio-about">Psychic game is a type of Word Guess game. User earns Ten opportunities to guess only from alphabet a to z. When user's guess is right before using all Ten opportuities, the user wins. But, when user uses up all Ten opportunities, user loses and game restarts.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card work" style="width: 17rem;">
-                <img src="assets/images/sports.jpg" class="card-img-top" alt="sports">
-                <div class="card-body">
-                    <h5 class="card-title">Sports</h5>
-                    <a href="#" class="btn btn-primary" id="view-code">View Code</a>
-                </div>
-            </div>
 
-            <!-- <div class="work">
-                <img src="assets/images/cat.jpg" alt="Cat">
-                <h2><a href="placeholder">Cat</a></h2>
-            </div>
+                <div class="row">
+                    <div class="col-sm-3"><!-- blank --></div>                
+                    <div class="col-xs-12 col-sm-6">
+                        <div id="image-section">
+                            <img src="assets/images/psychic-game.png" id="portfolio-image" alt="Psychic Game">
+                        </div>  
+                    </div>  
+                    <div class="col-sm-3"><!-- blank --></div>
+                </div>    
 
-            <div class="work">
-                <img src="assets/images/fashion.jpg" alt="Fashion">
-                <h2><a href="placeholder">Fashion</a></h2>
-            </div>
+                <div class="row" id="view-button-section">
+                    <div class="col-sm-3"><!-- blank --></div>                
+                    <div class="col-xs-6 col-sm-3">
+                            <a href="https://github.com/jk27924/Psychic-game"><button class="btn btn-primary" id="view-code">View Code</button></a>
+                    </div> 
+                    <div class="col-xs-6 col-sm-3">
+                        <a href="https://jk27924.github.io/Psychic-game/"><button class="btn btn-primary" id="view-app">View Application</button></a>
+                    </div>  
+                    <div class="col-sm-3"><!-- blank --></div>
+                </div>  
 
-            <div class="work">
-                <img src="assets/images/food.jpg" alt="Food">
-                <h2><a href="placeholder">Food</a></h2>
-            </div>
-
-            <div class="work">
-                <img src="assets/images/nightlife.jpg" alt="Nightlife">
-                <h2><a href="placeholder">Nightlife</a></h2>
+                <div class="row" id="technology">
+                    <p>Technologies Used: HTML, CSS, Javascript</p>
+                </div>     
             </div>
 
-            <div class="work">
-                <img src="assets/images/sports.jpg" alt="Sports">
-                <h2><a href="placeholder">Sports</a></h2>
-            </div> -->
 
-        </section>
+
+
+        </div>
     </div>
+
+    
 
  <footer>
     <p id="copyright">Copyright &copy; 2019 | JIHONG KIM</p>
