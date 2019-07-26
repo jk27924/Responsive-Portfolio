@@ -121,17 +121,24 @@ footer {
   text-align: center;
   font-size: 13px;
   color: whitesmoke;
-  height: 50px;
+  background: url('../images/jumbotron-img.jpg');
+  opacity: 0.7;
+
+  height: 100px;
   bottom: 0;
   position: fixed;
   width:100%;
-  background: url('../images/jumbotron-img.jpg');
-  opacity: 0.7;
+  margin: 0 auto;
 }
 
-#copyright {
-  padding-top: 20px;
+.fab {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
+
 
 .clear::after {
   content: "";
