@@ -1,24 +1,19 @@
 body {
   margin: 0 auto;
   background: url('https://i.pinimg.com/originals/e1/11/5a/e1115afea56dcaf0c273a4f3d9fc7f3a.jpg');
-
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-/* Home.html */
 
+/* Home.html */
 .jumbotron {
-  /* background: url('https://backgrounddownload.com/wp-content/uploads/2018/09/background-for-business-website-hd-2.jpg'); */
   background: url('../images/jumbotron-img.jpg');
   background-size: cover;
-  /* background-size: auto 100%; */
   background-position: bottom;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* height: 500px; */
   min-height: 400px;
 }
 
@@ -206,8 +201,19 @@ a:link {
   font-weight: bolder;
 }
 
-#sidebar-menu {
+li button {
   line-height: 40px;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+
+}
+
+#psychic-button {
+  font-family: 'Poiret One', cursive;
+
 }
 
 #portfolio-title {
@@ -263,6 +269,8 @@ a:link {
   font-size: 20px;
   margin-bottom: 120px;
 }
+
+
 
 
 /* Contact Page */

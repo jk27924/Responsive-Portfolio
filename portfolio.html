@@ -21,6 +21,10 @@
     <!-- Google Font Link -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Poiret+One|Shadows+Into+Light|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <title>Jihong Kim</title>
 </head>
 
@@ -59,36 +63,37 @@
         <h2 class="display-4" id=statement>J I H O N G K I M</h2>
         <p class="lead">Future Full Stack Developer</p>
 
-    </div>    
-
+    </div> 
+       
 
     <div class="page-container">
             
         <div class="container">
+
             <div class="row row-offcanvas row-offcanvas-left">
-            
+
             <div class="col-xs-12 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
                 <ul class="nav">
                     <li class="active"><a href="portfolio.html"id="sidebar-title">Portfolio</a></li>
                 </ul>
-
+                
                 <ul class="nav">
-                    <li><button class="btn btn-primary" id="sidebar-menu psychic-button"># Psychic Game</button></li>
+                    <li><button data-item="psychic" class="portfolio-selector" id="sidebar-menu psychic-button"># Psychic Game</button></li>
                 </ul>
                 <ul class="nav">
-                    <li><a href="#" id="sidebar-menu"># Crystal Collector</a></li>
+                    <li><button data-item="crystal" class="portfolio-selector" id="sidebar-menu crystal-button"># Crystal Collector</button></li>
                 </ul>
                 <ul class="nav">
-                    <li><a href="#" id="sidebar-menu"># Harry Potter Trivia</a></li>
+                    <li><button data-item="trivia" class="portfolio-selector" id="sidebar-menu trivia-button"># Harry Potter Trivia</button></li>
                 </ul>
                 <ul class="nav">
-                    <li><a href="#" id="sidebar-menu"># Marvel Gif Tastic</a></li>
+                    <li><button data-item="gif-tastic" class="portfolio-selector" id="sidebar-menu gif-button"># Marvel Gif Tastic</button></li>
                 </ul>
                 <ul class="nav">
-                    <li><a href="#" id="sidebar-menu"># Train Scheduler</a></li>
+                    <li><button data-item="train-scheduler" class="portfolio-selector" id="sidebar-menu train-button"># Train Scheduler</button></li>
                 </ul>
                 <ul class="nav">
-                    <li><a href="#" id="sidebar-menu"># Fridge Chef - Project 1</a></li>
+                    <li><button data-item="fridge-chef" class="portfolio-selector" id="sidebar-menu fridge-button"># Fridge Chef - Project 1</button></li>
                 </ul>
             </div>
             
@@ -96,7 +101,7 @@
             <div class="col-xs-12 col-sm-9" id="app-display">
 
                 <!-- Psychic Game -->
-                <div id="psychic">
+                <div id="psychic" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">PSYCHIC GAME</h2>
@@ -132,7 +137,7 @@
 
 
                 <!-- Crystal Collector -->
-                <div id="crystal">
+                <div id="crystal" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">CRYSTAL COLLECTOR</h2>
@@ -167,7 +172,7 @@
                 </div><!-- Crystal Collector Ends-->
 
                 <!-- Harry Potter Trivia -->
-                <div id="trivia">
+                <div id="trivia" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">HARRY POTTER TRIVIA</h2>
@@ -203,7 +208,7 @@
 
 
                 <!-- Marvel Gif Tastic -->
-                <div id="gif-tastic">
+                <div id="gif-tastic" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">MARVEL GIF TASTIC</h2>
@@ -238,7 +243,7 @@
                 </div><!-- Marvel Gif Tastic Ends-->
 
                 <!-- Train Scheduler -->
-                <div id="train-scheduler">
+                <div id="train-scheduler" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">TRAIN SCHEDULER</h2>
@@ -273,7 +278,7 @@
                 </div><!-- Train Scheduler Ends-->
 
                 <!-- Fridge Chef -->
-                <div id="fridge-chef">
+                <div id="fridge-chef" class="portfolio-app">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2 id="portfolio-title">FRIDGE CHEF</h2>
@@ -328,7 +333,7 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
                 <ul class="nav">
                     <li class="nav-item ml-auto mx-auto"><a href="#" class="nav-link"><i class="fab fa-facebook"></i></a></li>
-                    <li class="nav-item ml-auto mx-auto"><a href="#" class="nav-link"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="nav-item ml-auto mx-auto"><a href="https://www.linkedin.com/in/jihong-kim-b0783b10b/" class="nav-link"><i class="fab fa-linkedin"></i></a></li>
                     <li class="nav-item ml-auto mx-auto"><a href="#" class="nav-link"><i class="fab fa-github"></i></a></li>
                     <li class="nav-item ml-auto mx-auto"><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></li>
                 </ul>
