@@ -171,9 +171,7 @@ footer {
 }
 
 #about-me {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Inconsolata', monospace;
-
   font-size: 20px;
   line-height: 50px;
   color: whitesmoke;
@@ -193,36 +191,6 @@ footer {
   position: relative;
 }
 
-.work img {
-  width: 100px;
-  height: 200px;
-  margin-bottom: 50px;
-  margin-right: 40px;
-}
-
-.work h2 {
-  color: #fff;
-  background: #4aaaa5;
-  text-align: center;
-  line-height: 15px;
-  font-weight: 300;
-  width: 270px;
-  height: 37px;
-  position: absolute;
-  top: 135px;
-  padding: 23px 0px 0px 0px;
-}
-
-.main-section2 {
-  max-width: 1020px;
-  height: 800px;
-  margin: 0 auto;
-  background-color: whitesmoke;
-  padding: 30px;
-  margin-top: 35px;
-  margin-bottom: 40px;
-  border: 1px solid #ddd;   
-}
 
 a:link {
   text-decoration: none;
@@ -301,7 +269,7 @@ a:link {
 
 .main-section3 {
   width: 1300px;
-  height: 545px;
+  min-height: 700px;
   margin: 0 auto;
   /* background-color: white; */
   background-color: none;;
@@ -309,29 +277,37 @@ a:link {
   padding: 30px;
   margin-top: 35px;
   margin-bottom: 255px;
-  border: 1px solid #ddd;   
+  /* border: 1px solid #ddd;    */
 }
 
 #personal-info-title {
   color: whitesmoke;
   font-family: 'Poiret One', cursive;
   font-weight: bolder;
+
 }
 
 #personal-info {
   color: whitesmoke;
   margin-bottom: 30px;
   font-family: 'Inconsolata', monospace;
-  font-size: 20px;
+  font-size: 25px;
+
 }
 
 iframe {
   border-radius: 10px;
   border: 2px solid whitesmoke;
+  margin: 0 auto;
+}
+
+#upper-main {
+  margin-bottom: 50px;
 }
 
 #contact-title {
-  color: rgb(83, 82, 82);
+  color: whitesmoke;
+  font-weight: bolder;
 }
 
 textarea {
@@ -352,6 +328,7 @@ input[type=email],
 textarea {
   border: 1px solid #ddd;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 input[type=text],
@@ -361,17 +338,29 @@ input[type=email] {
   padding-left: 8px;
 }
 
-input[type=submit] {
-  background: #4aaaa5;
+#contact-btn {
+  background-color: rgb(92, 90, 90);
   font-size: 18px;
-  color: #fff;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  color: whitesmoke;
   width: 110px;
   height: 40px;
   cursor: pointer;
+  border: none;
+}
+
+#contact-btn:hover {
+  background-color: whitesmoke;
+  color: rgb(92, 90, 90);
 }
 
 label {
   font-size: 18px;
+  color: whitesmoke;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+
 }
 
 
@@ -427,6 +416,10 @@ width: 300px;
 height: auto;
 margin-top: 10px;
 margin-right: 25px;
+}
+
+iframe {
+  width: 450px;
 }
   
 
