@@ -19,7 +19,7 @@ body {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   /* height: 500px; */
-  min-height: 450px;
+  min-height: 400px;
 }
 
 .navbar {
@@ -171,7 +171,9 @@ footer {
 }
 
 #about-me {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Inconsolata', monospace;
+
   font-size: 20px;
   line-height: 50px;
   color: whitesmoke;
@@ -298,14 +300,38 @@ a:link {
 /* Contact Page */
 
 .main-section3 {
-  width: 900px;
+  width: 1300px;
   height: 545px;
   margin: 0 auto;
-  background-color: white;
+  /* background-color: white; */
+  background-color: none;;
+
   padding: 30px;
   margin-top: 35px;
   margin-bottom: 255px;
   border: 1px solid #ddd;   
+}
+
+#personal-info-title {
+  color: whitesmoke;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+}
+
+#personal-info {
+  color: whitesmoke;
+  margin-bottom: 30px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+}
+
+iframe {
+  border-radius: 10px;
+  border: 2px solid whitesmoke;
+}
+
+#contact-title {
+  color: rgb(83, 82, 82);
 }
 
 textarea {
