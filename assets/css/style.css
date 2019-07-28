@@ -165,15 +165,29 @@ footer {
   color: rgb(99, 98, 98);
 }
 
+#bio-resume-display {
+  background-color: rgb(77, 75, 75);
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+#brief-intro {
+  margin-bottom: 50px;
+}
+
 #about-me {
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
   line-height: 50px;
   color: whitesmoke;
+  margin: 0 auto;
+}
+
+#bio {
+  margin-bottom: 50px;
 }
 
 #bio-image {
-  max-width: 850px;
   border-radius: 10px;
   margin-bottom:50px;
 }
@@ -184,6 +198,71 @@ footer {
   line-height: 50px;
   color: whitesmoke;
 }
+
+#resume {
+  min-width: 100%;
+  margin-bottom: 150px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  opacity: 0.8;
+  padding: 0 20px 20px 20px;
+  min-height: 600px;
+}
+
+
+#resume-name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  text-align: right;
+  color: rgb(68, 68, 68);
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: 'Poiret One', cursive;
+}
+
+#resume-info {
+  text-align: right;
+  font-size: 20px;
+  line-height: 0px;
+  margin-right: 10px;
+  color: rgb(68, 68, 68);
+  font-family: 'Inconsolata', monospace;
+
+}
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+.sectionTitle {
+  background-color: rgb(29, 81, 129);
+}
+
+.sectionTitle h1 {
+  font-weight: bolder;
+  padding-bottom: 0px;
+  margin-left: 10px;
+}
+
+.sectionContent ul {
+  font-family: 'Inconsolata', monospace;
+  color: rgb(68, 68, 68);
+  margin-left: 10px; 
+  line-height: 30px;
+}
+
+.sectionContent article {
+  font-family: 'Inconsolata', monospace;
+  color: rgb(68, 68, 68);
+  margin-left: 10px;
+}
+
+article h2 {
+  font-size: 30px;
+}
+
 
 
 
