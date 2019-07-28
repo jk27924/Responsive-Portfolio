@@ -103,6 +103,18 @@ footer {
   margin: 120px 0 120px 0;
 }
 
+@media screen and (max-width: 768px) {
+  /* GLOBAL */
+  #nav-color {
+    font-size: 15px;
+    margin-right: 0px; 
+  }
+  
+  /* HOME PAGE */
+  .quote {
+    font-size: 30px;
+  }
+}
 
 
 /* --------------------------------------- */
