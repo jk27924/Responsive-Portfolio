@@ -25,18 +25,18 @@ $(document).ready(function () {
     
   
 
-    // $(".bio-selector").click(function() {
+    $(".bio-selector").click(function() {
         
-    //     var id = $(this).attr("data-item");
-    //     show(id);
-    // });
+        var id = $(this).attr("data-item");
+        show(id);
+    });
 
-    // function show(id) {
-    //     $(".bio-resume").hide();
-    //     $("#" + id).show();
-    // }
+    function show(id) {
+        $(".bio-resume").hide();
+        $("#" + id).show();
+    }
 
-    // show("brief-intro");
+    show("brief-intro");
 
 
 
