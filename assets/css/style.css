@@ -172,6 +172,19 @@ footer {
   color: whitesmoke;
 }
 
+#bio-image {
+  max-width: 850px;
+  border-radius: 10px;
+  margin-bottom:50px;
+}
+
+#my-bio {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  line-height: 50px;
+  color: whitesmoke;
+}
+
 
 
 
