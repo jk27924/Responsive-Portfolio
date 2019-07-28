@@ -103,6 +103,24 @@ footer {
   margin: 120px 0 120px 0;
 }
 
+
+
+@media screen and (max-width: 1199px) {
+  /* ABOUT PAGE */
+  #bio-image {
+    width: 690px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* ABOUT PAGE */
+  #bio-image {
+    width: 510px;
+    height: 350px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   /* GLOBAL */
   #nav-color {
@@ -116,7 +134,10 @@ footer {
   }
 
   /* ABOUT PAGE */
-  
+  #bio-image {
+    width: 470px;
+    height: 400px;
+  }
 }
 
 
