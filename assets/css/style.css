@@ -257,11 +257,84 @@ article h2 {
   font-size: 17px;
 }
 
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+
+/* <<-- PORTFOLIO PAGE -->> */
+#portfolio-top {
+  margin-bottom: 30px;
+}
+
+.work {
+  float: left;
+  position: relative;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.card {
+  border: none;
+}
+
+#sidebar-title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+li button {
+  line-height: 40px;
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+}
+
 @media screen and (max-width: 1199px) {
   /* ABOUT PAGE */
   #bio-image {
     width: 690px;
     height: 450px;
+  }
+
+  /* PORTFOLIO PAGE */
+  li button {
+    line-height: 40px;
+    font-size: 15px;
+  }
+
+  #portfolio-title {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+  
+  #portfolio-about {
+    color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 60px;
+  }
+
+  #portfolio-image {
+    max-width: 396px;
+    height: 250px;
+  }
+
+  #view-code {
+    max-width: 396px;
+  }
+  
+  #view-app {
+    max-width: 396px;
   }
 }
 
@@ -292,6 +365,20 @@ article h2 {
 
   article h2 {
     font-size: 25px;
+  }
+
+  /* PORTFOLIO PAGE */
+  #portfolio-image {
+    max-width: 330px;
+    height: 250px;
+  }
+
+  #view-code {
+    max-width: 330px;
+  }
+  
+  #view-app {
+    max-width: 330px;
   }
 }
 
@@ -338,6 +425,48 @@ article h2 {
   article h2 {
     font-size: 25px;
   }
+
+  /* PORTFOLIO PAGE */
+  #portfolio-image {
+    max-width: 330px;
+    height: 250px;
+  }
+  #view-code {
+    max-width: 330px;
+  }
+  
+  #view-app {
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* PORTFOLIO PAGE */
+  #sidebar-title {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  li button {
+    line-height: 40px;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+  }
+
+  #portfolio-image {
+    max-width: 420px;
+    height: 250px;
+  }
+  #view-code {
+    max-width: 420px;
+  }
+  
+  #view-app {
+    max-width: 420px;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -346,8 +475,17 @@ article h2 {
     width: 330px;
     height: 200px;
   }
+
   article h2 {
     font-size: 25px;
+  }
+
+  #view-code {
+    max-width: 420px;
+  }
+  
+  #view-app {
+    max-width: 420px;
   }
 }
 
@@ -359,6 +497,20 @@ article h2 {
   }
   article h2 {
     font-size: 25px;
+  }
+
+  /* PORTFOLIO PAGE */
+  #portfolio-image {
+    max-width: 476px;
+    height: 300px;
+  }
+
+  #view-code {
+    max-width: 476px;
+  }
+  
+  #view-app {
+    max-width: 476px;
   }
 }
 
@@ -373,50 +525,28 @@ article h2 {
     font-size: 25px;
   }
 
-}
-/* --------------------------------------- */
-/* --------------------------------------- */
+  /* PORTFOLIO PAGE */
+  #portfolio-image {
+    max-width: 470px;
+    height: 300px;
+  }
 
+  #view-code {
+    max-width: 470px;
+  }
+  
+  #view-app {
+    max-width: 470px;
+  }
 
-/* <<-- PORTFOLIO PAGE -->> */
-#portfolio-top {
-  margin-bottom: 30px;
-}
-
-.work {
-  float: left;
-  position: relative;
-}
-
-
-a:link {
-  text-decoration: none;
-  color: whitesmoke;
+  #sidebar {
+    text-align: center;
+  }
 }
 
-.card {
-  border: none;
-}
 
-#sidebar-title {
-  font-size: 30px;
-  font-weight: bolder;
-}
 
-li button {
-  line-height: 40px;
-  font-family: 'Poiret One', cursive;
-  font-size: 20px;
-  background-color: transparent;
-  border: none;
-  color: whitesmoke;
 
-}
-
-#psychic-button {
-  font-family: 'Poiret One', cursive;
-
-}
 
 #portfolio-title {
   text-align: center;
@@ -439,14 +569,15 @@ li button {
   margin: 0 auto;
 
 }
+
 #portfolio-image {
-  width: 400px;
-  height: 300px;
+  width: 539px;
+  max-height: 300px;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 
-#view-button-section {
+#view-button-section2 {
   margin-bottom: 60px;
 }
 
@@ -454,14 +585,15 @@ li button {
   background-color: rgb(92, 90, 90);
   text-align: center;
   border: none;
-  width: 180px;
+  width: 539px;
+  margin-bottom: 10px;
 }
 
 #view-app {
   background-color: rgb(92, 90, 90);
   text-align: center;
   border: none;
-  width: 180px;
+  width: 539px;
 }
 
 #technology {
