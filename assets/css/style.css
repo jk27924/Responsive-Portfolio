@@ -296,6 +296,187 @@ li button {
   color: whitesmoke;
 }
 
+#portfolio-title {
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+#portfolio-about {
+  color: whitesmoke;
+  font-family: 'Inconsolata', monospace;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+
+#image-section {
+  width: 100%;
+  float: center;
+  margin: 0 auto;
+
+}
+
+#portfolio-image {
+  width: 539px;
+  max-height: 300px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+#view-button-section2 {
+  margin-bottom: 60px;
+}
+
+#view-code {
+  background-color: rgb(92, 90, 90);
+  text-align: center;
+  border: none;
+  width: 539px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+#view-app {
+  background-color: rgb(92, 90, 90);
+  text-align: center;
+  border: none;
+  width: 539px;
+  opacity: 0.7;
+}
+
+#technology {
+  color: whitesmoke;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  margin-bottom: 120px;
+}
+
+
+/* --------------------------------------- */
+/* --------------------------------------- */
+
+
+/* <<-- CONTACT PAGE -->> */
+#main-container {
+  background-color: whitesmoke;
+  max-width: 1200px;
+  opacity: 0.6;
+  margin: 0 auto;
+}
+.main-section3 {
+  /* width: 1300px; */
+  min-height: 700px;
+  margin: 0 auto;
+  background-color: none;;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+#personal-info-title {
+  color: rgb(92, 90, 90);
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+#personal-info {
+  color: rgb(92, 90, 90);
+  margin-bottom: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  text-align: center;
+}
+
+#find-me {
+  color: rgb(54, 127, 168);
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+iframe {
+  width: 757px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(175, 173, 173);
+  margin: 0 auto;
+  text-align: center;
+}
+
+#upper-main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#contact-title {
+  color: rgb(54, 127, 168);
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Poiret One', cursive;
+
+}
+
+textarea {
+  height: 200px;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+label,
+textarea {
+  width: 100%;
+  font-family: 'Inconsolata', monospace;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  border: 1px solid rgb(175, 173, 173);
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+input[type=text],
+input[type=email] {
+  height: 30px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+
+#contact-btn {
+  background-color: rgb(54, 127, 168);
+  font-size: 18px;
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  color: whitesmoke;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 60px;
+}
+
+#contact-btn:hover {
+  background-color: rgb(92, 90, 90);
+  color: whitesmoke;
+}
+
+label {
+  font-size: 18px;
+  color: rgb(92, 90, 90);
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+}
+
 @media screen and (max-width: 1199px) {
   /* ABOUT PAGE */
   #bio-image {
@@ -335,6 +516,19 @@ li button {
   
   #view-app {
     max-width: 396px;
+  }
+
+  #technology {
+  color: whitesmoke;
+  font-family: 'Inconsolata', monospace;
+  line-height: 30px;
+  font-size: 15px;
+  }
+
+  /* CONTACT PAGE */
+  iframe {
+    width: 750px;
+    height: 450px;
   }
 }
 
@@ -379,6 +573,12 @@ li button {
   
   #view-app {
     max-width: 330px;
+  }
+
+  /* CONTACT PAGE */
+  iframe {
+    width: 550px;
+    height: 350px;
   }
 }
 
@@ -438,6 +638,12 @@ li button {
   #view-app {
     max-width: 330px;
   }
+
+    /* CONTACT PAGE */
+  iframe {
+    width: 462px;
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -467,6 +673,12 @@ li button {
   #view-app {
     max-width: 420px;
   }
+
+  /* CONTACT PAGE */
+  iframe {
+    width: 584px;
+    height: 350px;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -486,6 +698,11 @@ li button {
   
   #view-app {
     max-width: 420px;
+  }
+
+  iframe {
+    width: 475px;
+    height: 350px;
   }
 }
 
@@ -539,8 +756,14 @@ li button {
     max-width: 470px;
   }
 
-  #sidebar {
+  #technology {
     text-align: center;
+  }
+
+  /* CONTACT PAGE */
+  iframe {
+    width: 440px;
+    height: 350px;
   }
 }
 
@@ -548,282 +771,5 @@ li button {
 
 
 
-#portfolio-title {
-  text-align: center;
-  color: whitesmoke;
-  margin-bottom: 30px;
-}
 
-#portfolio-about {
-  color: whitesmoke;
-  font-family: 'Inconsolata', monospace;
-  line-height: 30px;
-  font-size: 20px;
-  margin-bottom: 60px;
-}
-
-
-#image-section {
-  width: 100%;
-  float: center;
-  margin: 0 auto;
-
-}
-
-#portfolio-image {
-  width: 539px;
-  max-height: 300px;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-
-#view-button-section2 {
-  margin-bottom: 60px;
-}
-
-#view-code {
-  background-color: rgb(92, 90, 90);
-  text-align: center;
-  border: none;
-  width: 539px;
-  margin-bottom: 10px;
-}
-
-#view-app {
-  background-color: rgb(92, 90, 90);
-  text-align: center;
-  border: none;
-  width: 539px;
-}
-
-#technology {
-  color: whitesmoke;
-  font-family: 'Inconsolata', monospace;
-  font-size: 20px;
-  margin-bottom: 120px;
-}
-
-
-/* --------------------------------------- */
-/* --------------------------------------- */
-
-
-/* <<-- CONTACT PAGE -->> */
-.main-section3 {
-  width: 1300px;
-  min-height: 700px;
-  margin: 0 auto;
-  background-color: none;;
-  padding: 30px;
-  margin-top: 35px;
-  margin-bottom: 255px;
-}
-
-#personal-info-title {
-  color: whitesmoke;
-  font-family: 'Poiret One', cursive;
-  font-weight: bolder;
-
-}
-
-#personal-info {
-  color: whitesmoke;
-  margin-bottom: 30px;
-  font-family: 'Inconsolata', monospace;
-  font-size: 25px;
-
-}
-
-iframe {
-  border-radius: 10px;
-  border: 2px solid whitesmoke;
-  margin: 0 auto;
-}
-
-#upper-main {
-  margin-bottom: 50px;
-}
-
-#contact-title {
-  color: whitesmoke;
-  font-weight: bolder;
-}
-
-textarea {
-  height: 200px;
-  margin-bottom: 5px;
-}
-
-input[type=text],
-input[type=email],
-label,
-textarea {
-  width: 100%;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  border: 1px solid #ddd;
-  font-size: 14px;
-  border-radius: 10px;
-}
-
-input[type=text],
-input[type=email] {
-  height: 30px;
-  margin-bottom: 8px;
-  padding-left: 8px;
-}
-
-#contact-btn {
-  background-color: rgb(92, 90, 90);
-  font-size: 18px;
-  font-family: 'Poiret One', cursive;
-  font-weight: bolder;
-  color: whitesmoke;
-  width: 110px;
-  height: 40px;
-  cursor: pointer;
-  border: none;
-}
-
-#contact-btn:hover {
-  background-color: whitesmoke;
-  color: rgb(92, 90, 90);
-}
-
-label {
-  font-size: 18px;
-  color: whitesmoke;
-  font-family: 'Poiret One', cursive;
-  font-weight: bolder;
-}
-
-
-
-/* Media query */
-
-@media screen and (max-width:980px){
- 
-.main-section {
-float: left;
-width: 70%;
-max-width: 70%;
-padding: 30px;
-margin: 0 0 40px;
-background: #fff;
-border: 1px solid #ddd;
-}
-
-  
-
-
-@media screen and (max-width:768px) {
-#top {
-width: 100%;
-margin: 0 auto;
-}
-
-.container{
-width:100%;
-margin: 0 auto;
-clear: both;
-max-width: 750px;
-}  
-
-.main-section{
-float: left;
-width: 100%;
-padding: 30px;
-margin: 0 0 40px;
-max-width: 750px;
-background: #fff;
-border: 1px solid #ddd;
-}
-
-.main-section2 {
-width: 100%;
-max-width: 750px;
-}
-
-.my-image {
-float: left;
-width: 300px;
-height: auto;
-margin-top: 10px;
-margin-right: 25px;
-}
-
-iframe {
-  width: 440px;
-}
-  
-
-
-
-@media screen and (max-width: 640px) {
-
-#top {
-width: 100%;
-margin: 0;
-}
-
-
-.top-container {
-max-width: 640px;
-width: 100%
-}
-
-.nameplate {
-width: 100%;
-}
-
-nav {
-width: 100%;
-text-align: center;
-padding-bottom: 30px;
-}
-
-.main-container {
-padding: 20px;
-width: 100%;
-}
-
-.my-image {
-width: 100%;
-height: auto;
-margin-bottom: 20px;
-}
-
-p {
-line-height: 40px;
-}
-
-/* Portfolio 640px */
-
-.work {
-  width : 100%;
-}
-
-/* contact 640px */
-.main-section3 {
-width: 100%;
-height: 545px;
-margin: 0 auto;
-background-color: white;
-padding: 30px;
-margin-top: 35px;
-margin-bottom: 255px;
-border: 1px solid #ddd;   
-}
-
-input[type=text],
-input[type=email],
-label,
-textarea {
-  width: 100%;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
 
