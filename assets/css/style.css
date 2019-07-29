@@ -205,7 +205,6 @@ footer {
   margin-right: 10px;
   color: rgb(68, 68, 68);
   font-family: 'Inconsolata', monospace;
-
 }
 
 section {
@@ -272,6 +271,28 @@ article h2 {
     width: 510px;
     height: 350px;
   }
+
+  #resume-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #resume-info {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Inconsolata', monospace;
+  }
+
+  .sectionTitle h1{
+    font-size: 30px;
+  }
+
+  article h2 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -291,6 +312,32 @@ article h2 {
     width: 510px;
     height: 350px;
   }
+
+  #resume {
+    text-align: center;
+  }
+
+  #resume-name {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  #resume-info {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  .sectionTitle h1{
+    font-size: 30px;
+  }
+
+  article h2 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 760px) {
@@ -299,7 +346,9 @@ article h2 {
     width: 330px;
     height: 200px;
   }
-
+  article h2 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -308,6 +357,9 @@ article h2 {
     width: 545px;
     height: 350px;
   }
+  article h2 {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -315,6 +367,10 @@ article h2 {
   #bio-image {
     width: 470px;
     height: 350px;
+  }
+
+  article h2 {
+    font-size: 25px;
   }
 
 }
