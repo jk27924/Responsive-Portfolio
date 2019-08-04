@@ -296,18 +296,27 @@ li button {
   color: whitesmoke;
 }
 
+#app-display {
+  background-color: whitesmoke;
+  opacity: 0.8;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
 #portfolio-title {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(70, 69, 69);
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 #portfolio-about {
-  color: whitesmoke;
+  color: rgb(70, 69, 69);
   font-family: 'Inconsolata', monospace;
   line-height: 30px;
   font-size: 20px;
   margin-bottom: 60px;
+  padding: 0 30px 0 30px;
 }
 
 
@@ -315,7 +324,6 @@ li button {
   width: 100%;
   float: center;
   margin: 0 auto;
-
 }
 
 #portfolio-image {
@@ -324,6 +332,7 @@ li button {
   border-radius: 10px;
   margin-bottom: 30px;
   opacity: 0.7;
+  border: 1px dashed rgb(102, 101, 101);
 }
 
 #view-button-section2 {
@@ -347,11 +356,17 @@ li button {
   opacity: 0.7;
 }
 
+#view-code:hover,
+#view-app:hover {
+  background-color: rgb(54, 127, 168);
+}
+
 #technology {
-  color: whitesmoke;
+  color: rgb(70, 69, 69);
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
-  margin-bottom: 120px;
+  margin-bottom: 30px;
+  padding: 0 30px 0 30px;
 }
 
 
@@ -493,13 +508,11 @@ label {
 
   #portfolio-title {
     text-align: center;
-    color: whitesmoke;
     margin-bottom: 30px;
     font-size: 25px;
   }
   
   #portfolio-about {
-    color: whitesmoke;
     font-family: 'Inconsolata', monospace;
     line-height: 30px;
     font-size: 15px;
@@ -520,7 +533,6 @@ label {
   }
 
   #technology {
-  color: whitesmoke;
   font-family: 'Inconsolata', monospace;
   line-height: 30px;
   font-size: 15px;
