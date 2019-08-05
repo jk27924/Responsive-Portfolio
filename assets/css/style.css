@@ -50,6 +50,22 @@ body {
   margin: 0 50px 0 50px;
 }
 
+#statement {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+}
+
+.lead {
+  color: whitesmoke;
+  text-align: center;
+  /* font-family: 'Poiret One', cursive; */
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 /* footer */
 
 footer {
@@ -80,20 +96,6 @@ footer {
 
 
 /* <<-- HOME PAGE -->> */
-#statement {
-  color: whitesmoke;
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-  font-size: 30px;
-}
-
-.lead {
-  color: whitesmoke;
-  text-align: center;
-  font-family: 'Inconsolata', monospace;
-  font-weight: bolder;
-  font-size: 20px;
-}
 
 .quote {
   color: whitesmoke;
