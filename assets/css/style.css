@@ -401,11 +401,10 @@ li button {
 #main-container {
   background-color: whitesmoke;
   max-width: 1200px;
-  opacity: 0.6;
+  opacity: 0.7;
   margin: 0 auto;
 }
 .main-section3 {
-  /* width: 1300px; */
   min-height: 700px;
   margin: 0 auto;
   background-color: none;;
@@ -441,8 +440,7 @@ li button {
 iframe {
   width: 757px;
   height: 500px;
-  border-radius: 10px;
-  border: 1px solid rgb(175, 173, 173);
+  opacity: 1;
   margin: 0 auto;
   text-align: center;
 }
@@ -621,7 +619,7 @@ label {
 
   /* CONTACT PAGE */
   iframe {
-    width: 550px;
+    width: 610px;
     height: 350px;
   }
 }
@@ -720,7 +718,7 @@ label {
 
   /* CONTACT PAGE */
   iframe {
-    width: 584px;
+    width: 462px;
     height: 350px;
   }
 }
@@ -776,6 +774,10 @@ label {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+    max-width: 567px;
+  }
+
   /* ABOUT PAGE */
   #bio-image {
     width: 470px;
